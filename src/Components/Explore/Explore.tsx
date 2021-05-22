@@ -1,9 +1,9 @@
 import React from "react";
-
+import { ExploreContainer } from "./Styled";
 interface Props {}
 
 const Explore = (props: Props) => {
-  return <div>dasdasdsdadasdasd12</div>;
+  return <ExploreContainer></ExploreContainer>;
 };
 
 export default Explore;

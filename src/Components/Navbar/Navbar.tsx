@@ -3,7 +3,11 @@ import { Nav } from "./Styled";
 interface Props {}
 
 const Navbar: React.FC = (props: Props) => {
-  return <Nav>sdsd</Nav>;
+  return (
+    <>
+      <Nav></Nav>
+    </>
+  );
 };
 
 export default Navbar;
