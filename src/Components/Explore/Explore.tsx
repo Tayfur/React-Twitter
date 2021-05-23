@@ -1,9 +1,13 @@
 import React from "react";
-import { ExploreContainer } from "./Styled";
+import { ExploreContainer, Wrapper } from "./Styled";
 interface Props {}
 
 const Explore = (props: Props) => {
-  return <ExploreContainer></ExploreContainer>;
+  return (
+    <ExploreContainer>
+      <Wrapper></Wrapper>
+    </ExploreContainer>
+  );
 };
 
 export default Explore;

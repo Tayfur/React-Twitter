@@ -4,8 +4,7 @@ export const FeedContainer = styled.div`
   background-color: bisque;
   max-width: 600px;
   width: 100%;
-  height: 500px;
+  height: 2000px;
   @media screen and (max-width: 1200px) {
-    display: none;
   }
 `;
