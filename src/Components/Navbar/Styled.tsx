@@ -7,8 +7,8 @@ export const Nav = styled.div`
   display: flex;
   position: relative;
   @media screen and (max-width: 1200px) {
-    padding-left: 10px;
-    max-width: 50px;
+    padding-left: 5px;
+    max-width: 60px;
   }
 `;
 
