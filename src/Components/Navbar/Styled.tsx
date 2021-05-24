@@ -7,6 +7,7 @@ export const Nav = styled.div`
   display: flex;
   position: relative;
   @media screen and (max-width: 1200px) {
+    padding-left: 10px;
     max-width: 50px;
   }
 `;
@@ -53,6 +54,12 @@ export const NavItem = styled.div`
   align-items: center;
   flex-direction: row;
   margin-top: 10px;
+  justify-content: center;
+  cursor: pointer;
+  :hover {
+    background-color: #223f5d;
+    border-radius: 100px;
+  }
   @media screen and (max-width: 1200px) {
     justify-content: center;
   }
@@ -76,6 +83,9 @@ export const NavItemText = styled.div`
   margin-left: 20px;
   align-items: center;
   font-weight: 800;
+  :hover {
+    color: #1da1f1;
+  }
   @media screen and (max-width: 1200px) {
     display: none;
   }
@@ -83,13 +93,19 @@ export const NavItemText = styled.div`
 
 export const NavTweetButton = styled.button`
   width: 100%;
-  max-width: 175px;
+  max-width: 200px;
   max-height: 50px;
   height: 100%;
   display: flex;
-  font-size: 20px;
+  font-size: 18px;
   background-color: #1da1f1;
-
+  border-radius: 100px;
+  border-color: #1da1f1;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 800;
   @media screen and (max-width: 1200px) {
     display: none;
   }
