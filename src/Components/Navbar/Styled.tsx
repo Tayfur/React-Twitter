@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Nav = styled.div`
-  background-color: burlywood;
   max-width: 251px;
   height: 700px;
   width: 100%;
@@ -13,7 +12,6 @@ export const Nav = styled.div`
 `;
 
 export const NavWrapper = styled.div`
-  background-color: blueviolet;
   max-width: 251px;
   height: 700px;
   width: 100%;
@@ -24,18 +22,20 @@ export const NavWrapper = styled.div`
     max-width: 50px;
   }
 `;
-export const NavLogo = styled.div`
-  background-color: yellowgreen;
+export const NavLogo = styled.img`
   width: 100%;
   max-height: 50px;
+  max-width: 50px;
   display: flex;
   height: 100%;
   margin-bottom: 20px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
   @media screen and (max-width: 1200px) {
   }
 `;
 export const NavItemWrapper = styled.div`
-  background-color: royalblue;
   width: 100%;
   max-height: 500px;
   height: 100%;
@@ -45,7 +45,6 @@ export const NavItemWrapper = styled.div`
   }
 `;
 export const NavItem = styled.div`
-  background-color: red;
   width: 100%;
   max-width: 174px;
   max-height: 50px;
@@ -58,8 +57,7 @@ export const NavItem = styled.div`
     justify-content: center;
   }
 `;
-export const NavItemIcon = styled.div`
-  background-color: yellow;
+export const NavItemIcon = styled.img`
   width: 100%;
   max-width: 26px;
   max-height: 26px;
@@ -74,8 +72,10 @@ export const NavItemText = styled.div`
   max-height: 26px;
   height: 100%;
   display: flex;
-  font-size: 20px;
-  margin-left: 5px;
+  font-size: 18px;
+  margin-left: 20px;
+  align-items: center;
+  font-weight: 800;
   @media screen and (max-width: 1200px) {
     display: none;
   }
