@@ -8,6 +8,6 @@ export const Container = styled.div`
   margin-right: auto;
   flex-direction: row;
   justify-content: space-between;
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 480px) {
   }
 `;

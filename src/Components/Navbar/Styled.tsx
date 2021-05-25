@@ -10,6 +10,8 @@ export const Nav = styled.div`
     padding-left: 5px;
     max-width: 60px;
   }
+  @media screen and (max-width: 480px) {
+  }
 `;
 
 export const NavWrapper = styled.div`

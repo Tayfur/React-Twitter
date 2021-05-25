@@ -182,7 +182,17 @@ export const FeedCardSectionPostText = styled.span`
   @media screen and (max-width: 1200px) {
   }
 `;
-
+export const FeedCardSectionPostImage = styled.img`
+  display: flex;
+  margin-top: 10px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 100%;
+  @media screen and (max-width: 1200px) {
+  }
+`;
 export const FeedCardSectionPostAction = styled.div`
   display: flex;
   position: relative;
