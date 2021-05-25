@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Nav = styled.div`
   max-width: 251px;
-  height: 700px;
   width: 100%;
+  height: 100%;
   display: flex;
   position: relative;
   @media screen and (max-width: 1200px) {
@@ -16,7 +16,7 @@ export const Nav = styled.div`
 
 export const NavWrapper = styled.div`
   max-width: 251px;
-  height: 700px;
+  height: 100%;
   width: 100%;
   display: flex;
   position: fixed;
@@ -108,6 +108,77 @@ export const NavTweetButton = styled.button`
   align-items: center;
   cursor: pointer;
   font-weight: 800;
+  margin-bottom: 200px;
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
+`;
+
+export const NavUser = styled.div`
+  width: 100%;
+  max-width: 230px;
+  max-height: 64px;
+  height: 100%;
+  display: flex;
+  border-radius: 100px;
+  color: #fff;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  :hover {
+    background-color: #223f5d;
+    border-radius: 100px;
+  }
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
+`;
+export const NavUserLogo = styled.img`
+  width: 100%;
+  max-width: 40px;
+  max-height: 40px;
+  height: 100%;
+  display: flex;
+  border-radius: 100px;
+  color: #fff;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 10px;
+
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
+`;
+export const NavUserUsernameSection = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 10px;
+  flex-direction: column;
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
+`;
+export const NavUserUsername = styled.span`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
+`;
+export const NavUserUserTag = styled.span`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
   @media screen and (max-width: 1200px) {
     display: none;
   }

@@ -8,6 +8,11 @@ import {
   NavItemIcon,
   NavItemText,
   NavTweetButton,
+  NavUser,
+  NavUserLogo,
+  NavUserUsernameSection,
+  NavUserUsername,
+  NavUserUserTag,
 } from "./Styled";
 interface Props {}
 const Navbar: React.FC = (props: Props) => {
@@ -51,6 +56,17 @@ const Navbar: React.FC = (props: Props) => {
             </NavItem>
           </NavItemWrapper>
           <NavTweetButton>Tweet</NavTweetButton>
+          <NavUser>
+            <NavUserLogo
+              src={
+                "https://pbs.twimg.com/profile_images/1293981099924889607/3rcpHVIO_400x400.jpg"
+              }
+            />
+            <NavUserUsernameSection>
+              <NavUserUsername>Tayfur Kaya</NavUserUsername>
+              <NavUserUserTag>@ImTayfur</NavUserUserTag>
+            </NavUserUsernameSection>
+          </NavUser>
         </NavWrapper>
       </Nav>
     </>

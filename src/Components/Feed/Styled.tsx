@@ -70,6 +70,8 @@ export const FeedCard = styled.div`
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
+  cursor: pointer;
+
   border-top: solid 1px #37444d;
   border-bottom: solid 1px #37444d;
 
@@ -101,7 +103,6 @@ export const FeedCardLogoProfileIcon = styled.img`
 `;
 export const FeedCardSection = styled.div`
   width: 100%;
-  max-height: 900px;
   display: flex;
   position: relative;
   flex-direction: column;
@@ -190,6 +191,9 @@ export const FeedCardSectionPostImage = styled.img`
   align-items: center;
   border-radius: 10px;
   width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+  cursor: pointer;
   @media screen and (max-width: 1200px) {
   }
 `;
@@ -199,11 +203,11 @@ export const FeedCardSectionPostAction = styled.div`
   max-width: 425px;
   margin-top: 12px;
   margin-bottom: 12px;
-
   height: 20px;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
+
   @media screen and (max-width: 1200px) {
   }
 `;
