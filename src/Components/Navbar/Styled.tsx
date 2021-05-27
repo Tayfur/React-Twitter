@@ -11,6 +11,7 @@ export const Nav = styled.div`
     max-width: 60px;
   }
   @media screen and (max-width: 480px) {
+    display: none;
   }
 `;
 
@@ -23,6 +24,8 @@ export const NavWrapper = styled.div`
   flex-direction: column;
   @media screen and (max-width: 1200px) {
     max-width: 50px;
+  }
+  @media screen and (max-width: 480px) {
   }
 `;
 export const NavLogo = styled.img`

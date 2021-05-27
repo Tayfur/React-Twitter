@@ -9,5 +9,6 @@ export const Container = styled.div`
   flex-direction: row;
   justify-content: space-between;
   @media screen and (max-width: 480px) {
+    flex-direction: column;
   }
 `;

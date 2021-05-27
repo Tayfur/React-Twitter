@@ -26,7 +26,7 @@ export const FeedNav = styled.div`
   }
 `;
 export const FeedNavFixed = styled.div`
-  max-width: 600px;
+  max-width: 598px;
   width: 100%;
   height: 50px;
   max-height: 50px;
@@ -57,7 +57,143 @@ export const FeedTweetSection = styled.div`
   max-height: 150px;
   display: flex;
   position: relative;
-  background-color: red;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  @media screen and (max-width: 1200px) {
+  }
+  @media screen and (max-width: 480px) {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+`;
+export const FeedTweetLogoSection = styled.div`
+  max-width: 48px;
+  width: 100%;
+  max-height: 600px;
+  display: flex;
+  position: relative;
+  margin-right: 20px;
+
+  @media screen and (max-width: 1200px) {
+  }
+  @media screen and (max-width: 480px) {
+    margin-right: 10px;
+  }
+`;
+export const FeedTweetLogo = styled.img`
+  max-width: 48px;
+
+  width: 100%;
+  max-height: 48px;
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 100px;
+
+  object-fit: cover;
+  @media screen and (max-width: 1200px) {
+  }
+  @media screen and (max-width: 480px) {
+  }
+`;
+export const FeedTweetInputSection = styled.div`
+  max-width: 502px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  height: 100%;
+  justify-content: flex-start;
+  flex-direction: column;
+  @media screen and (max-width: 1200px) {
+  }
+`;
+export const FeedTweetInput = styled.textarea`
+  max-width: 500px;
+  width: 100%;
+  background-color: ${({ theme }) => theme.body};
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  color: ${({ theme }) => theme.text};
+  font-weight: 700;
+  font-size: 15px;
+  height: 80px;
+  outline: none;
+  border-style: none;
+  resize: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  @media screen and (max-width: 1200px) {
+  }
+`;
+export const FeedTweetInputAction = styled.div`
+  max-width: 502px;
+  width: 100%;
+  max-height: 52px;
+  height: 100%;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding-top: 10px;
+  align-items: center;
+  flex-direction: row;
+  border-top: solid 1px #37444d;
+  @media screen and (max-width: 1200px) {
+  }
+`;
+export const FeedTweetInputActionIconSection = styled.div`
+  max-width: 188px;
+  width: 100%;
+  max-height: 40px;
+  height: 100%;
+  display: flex;
+  margin-top: 10px;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  @media screen and (max-width: 1200px) {
+  }
+`;
+export const FeedTweetInputActionIcon = styled.img`
+  max-width: 28px;
+  width: 100%;
+  max-height: 28px;
+  height: 100%;
+  padding: 2px;
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 10px;
+  :hover {
+  }
+  @media screen and (max-width: 1200px) {
+  }
+`;
+export const FeedTweetInputActionButton = styled.button`
+  max-width: 90px;
+  width: 100%;
+  max-height: 40px;
+  height: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  color: #fff;
+  background-color: #1da1f1;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 100px;
+  font-size: 15px;
+  font-weight: 800;
+  border: none;
+  :hover {
+  }
   @media screen and (max-width: 1200px) {
   }
 `;
@@ -77,6 +213,10 @@ export const FeedCard = styled.div`
 
   @media screen and (max-width: 1200px) {
   }
+  @media screen and (max-width: 480px) {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 `;
 export const FeedCardLogo = styled.div`
   max-width: 48px;
@@ -86,6 +226,8 @@ export const FeedCardLogo = styled.div`
   position: relative;
   margin-right: 20px;
   @media screen and (max-width: 1200px) {
+  }
+  @media screen and (max-width: 480px) {
   }
 `;
 export const FeedCardLogoProfileIcon = styled.img`
@@ -99,6 +241,8 @@ export const FeedCardLogoProfileIcon = styled.img`
   border-radius: 100px;
   object-fit: cover;
   @media screen and (max-width: 1200px) {
+  }
+  @media screen and (max-width: 480px) {
   }
 `;
 export const FeedCardSection = styled.div`
