@@ -9,7 +9,7 @@ export const lightTheme = {
 export const darkTheme = {
   isLight: false,
   body: "#15202b",
-  text: "#FAFAFA",
+  text: "#fff",
   toggleBorder: "#6B8096",
   gradient: "linear-gradient(#091236, #1E215D)",
 };

@@ -35,6 +35,7 @@ export const FeedNavFixed = styled.div`
   background-color: ${({ theme }) => theme.body};
 
   border-bottom: solid 1px #37444d;
+  border-right: solid 1px #37444d;
 
   position: fixed;
   @media screen and (max-width: 1200px) {
@@ -127,6 +128,7 @@ export const FeedTweetInput = styled.textarea`
   resize: none;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
   @media screen and (max-width: 1200px) {
   }
 `;
